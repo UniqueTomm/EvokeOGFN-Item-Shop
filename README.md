@@ -105,20 +105,51 @@ To add an item to your shop, fill in the slot with:
 
 ```json
 {
-  "//": "BR Item Shop Config",
-  "daily1": {"itemGrants": ["AthenaCharacter:Character_EVOKEOGFN"], "price": 1200},
-  "daily2": {"itemGrants": ["AthenaPickaxe:Pickaxe_EVOKEOGFN"], "price": 800},
-  "daily3": {"itemGrants": ["AthenaDance:Dance_Flare"], "price": 500},
-  "daily4": {"itemGrants": ["AthenaItemWrap:Wrap_Galaxy"], "price": 300},
-  "daily5": {"itemGrants": ["AthenaGlider:Glider_StarSurfer"], "price": 1500},
-  "daily6": {"itemGrants": ["AthenaLoadingScreen:LoadingScreen_Galactic"], "price": 200},
-  "featured1": {"itemGrants": ["AthenaCharacter:Character_Drift"], "price": 2000},
-  "featured2": {"itemGrants": ["AthenaDance:Dance_DefaultDance"], "price": 200},
-  "featured3": {"itemGrants": ["AthenaSkyDiveContrail:Contrail_Rainbow"], "price": 400},
-  "featured4": {"itemGrants": ["AthenaItemWrap:Wrap_Camo"], "price": 600}
+
 }
 ```
-
+{
+    "//": "BR Item Shop Config",
+    "daily1": {
+        "itemGrants": ["AthenaCharacter:CID_383_Athena_Commando_F_Cacti"],
+        "name": "Prickly Patroller",
+        "price": 800
+    },
+    "daily2": {
+        "itemGrants": ["AthenaPickaxe:Pickaxe_ID_074_SharpDresser"],
+        "name": "Studded Axe",
+        "price": 800
+    },
+    "daily3": {
+        "itemGrants": ["AthenaDance:EID_TimetravelBackflip"],
+        "name": "Spring-Loaded",
+        "price": 500
+    },
+    "daily4": {
+        "itemGrants": ["AthenaCharacter:CID_019_Athena_Commando_M"],
+        "name": "Infiltrator",
+        "price": 1200
+    },
+    "daily5": {
+        "itemGrants": ["AthenaDance:EID_KpopDance04"],
+        "name": "Glitter",
+        "price": 500
+    },
+    "daily6": {
+        "itemGrants": ["AthenaDance:EID_ElectroShuffle"],
+        "name": "Electro Shuffle",
+        "price": 800
+    },
+    "featured1": {
+        "itemGrants": ["AthenaPickaxe:Pickaxe_ID_168_Bandolier"],
+        "name": "Machete",
+        "price": 500
+    },
+    "featured2": {
+        "itemGrants": ["AthenaWrap:Wrap_043_Bandolette"],
+        "name": "Digital Grayscale",
+        "price": 300
+    } }
 ---
 
 ## 5. Common Mistakes to Avoid
