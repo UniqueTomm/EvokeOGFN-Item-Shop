@@ -105,9 +105,6 @@ To add an item to your shop, fill in the slot with:
 
 ```json
 {
-
-}
-```
 {
     "//": "BR Item Shop Config",
     "daily1": {
@@ -150,6 +147,8 @@ To add an item to your shop, fill in the slot with:
         "name": "Digital Grayscale",
         "price": 300
     } }
+}
+```
 ---
 
 ## 5. Common Mistakes to Avoid
