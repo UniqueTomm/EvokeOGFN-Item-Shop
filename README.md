@@ -105,7 +105,6 @@ To add an item to your shop, fill in the slot with:
 
 ```json
 {
-{
     "//": "BR Item Shop Config",
     "daily1": {
         "itemGrants": ["AthenaCharacter:CID_383_Athena_Commando_F_Cacti"],
@@ -147,7 +146,6 @@ To add an item to your shop, fill in the slot with:
         "name": "Digital Grayscale",
         "price": 300
     } }
-}
 ```
 ---
 
